@@ -7,7 +7,7 @@ keywords = ["arm", "cortex-m", "efm32", "svd2rust"]
 license = "MIT OR Apache-2.0"
 name = "efm32hg222f64"
 repository = "https://github.com/eupn/efm32hg222f64"
-version = "0.1.0"
+version = "0.1.1"
 
 [dependencies]
 bare-metal = "0.1.0"
