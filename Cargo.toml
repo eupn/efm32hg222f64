@@ -1,0 +1,22 @@
+[package]
+authors = ["Eugene P. <eupn@protonmail.com>"]
+categories = ["embedded", "hardware-support", "no-std"]
+description = "Peripheral access API for SiLabs EFM32HG222F64 microcontrollers"
+documentation = "https://docs.rs/efm32hg222f64"
+keywords = ["arm", "cortex-m", "efm32", "svd2rust"]
+license = "MIT OR Apache-2.0"
+name = "efm32hg222f64"
+repository = "https://github.com/eupn/efm32hg222f64"
+version = "0.1.0"
+
+[dependencies]
+bare-metal = "0.1.0"
+cortex-m = "0.4.0"
+vcell = "0.1.0"
+
+[dependencies.cortex-m-rt]
+optional = true
+version = "0.3.0"
+
+[features]
+rt = ["cortex-m-rt"]
